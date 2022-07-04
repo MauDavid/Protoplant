@@ -1,38 +1,31 @@
 .App {
-  text-align: center;
+  width: auto;
+  height: auto;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.row {
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.inicio-presentacion {
+  height: 100vh;
+  width: auto;
+  background-image: url("./assets/imagenes/plant-inicio-2004483_1920.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.conocenos {
+  height: auto;
+  width: auto;
+  background-color: #ffff;
+  padding: 3em;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.categoria-plantas .container .card {
+  margin-top: 10em;
+  margin-bottom: 5em;
 }
